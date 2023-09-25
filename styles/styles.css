@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+}
+.primary-background-color {
+    background-color: #fff8f3;
+}
+
+header {
+    background-image: url(../resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+nav p {
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav p span {
+    color: #fd6e0a;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+.primary-button {
+    background-color: #fd6e0a;
+    padding: 18px 35px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.secondary-button {
+    color: #fd6e0a;
+
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    border: 1px #fd6e0a solid;
+}
+
+.d-flex {
+    display: flex;
+}
+.dveloper-img {
+    padding: 38px 0px 25px 25px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+.banner-name {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    width: 585px;
+    margin-bottom: 30px;
+}
+.banner-button {
+    display: flex;
+    gap: 30px;
+    color: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+}
+.profile-picture {
+    margin: 0px;
+    padding: 0px;
+    /* margin-right: 40px; */
+    /* padding-bottom: 0px;
+    margin-bottom: 0px; */
+}
+.profile-picture img{
+    /* padding-bottom: -30px; */
+    margin-bottom: -30px;
+}
+
+/* about me section */
