@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 .primary-background-color {
     background-color: #fff8f3;
@@ -11,8 +12,8 @@ header {
     background-position: bottom right;
     padding: 0px;
     margin: 0px;
-    display: flex; 
-     /* justify-content: space-between; */
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 nav {
@@ -68,7 +69,7 @@ nav li {
     margin-right: 70px;
     margin-bottom: 0px;
 }
-.head{
+.head {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
